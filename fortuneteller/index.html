@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- this is the start of content -->
+   
+<img src = "https://img.freepik.com/premium-photo/fortune-teller-uses-crystal-ball-tell-fortunes-selective-focus_74760-15641.jpg?w=2000" alt = "fortune teller" width = "300" height = "200">
     <h1>
       Fortune Teller
     </h1>
@@ -23,8 +24,46 @@
       <label for="questionfield">Question:</label>
       <input type="text" id="questionfield" name="question" placeholder="a yes or no question">
       <br>
-      <input type="submit">
-    </form>
+    
+
+
+
+<label for="favColor">Favorite Color:</label>
+<input type="color" id="favColor" name = "favColor" placeholder = "Enter your favorite color">
+
+<br>
+
+
+<label for="favNumber">Favorite Number:</label>
+<input type="number" id="favNumber" name = "favNumber" placeholder = "Enter your favorite number">
+
+
+<br>
+
+<label for = "dateToday">What you are most excited for:</label>
+<input type="date" id="dateToday" name = "dateToday" placeholder = "Enter today's date">
+
+
+<br>
+
+<label for="animals">Choose a animal:</label>
+<select id="animals" name="animals">
+  <option value="dog">Dog</option>
+  <option value="cat">Cat</option>
+  <option value="bird">Bird</option>
+  <option value="fish">Fish</option>
+</select>
+
+<br>
+
+   <input type="checkbox" id="agree" required>
+   <label for="agree">I am kind</label>
+
+
+<br>
+ <button type="submit">see fortune!</button>
     <div id="fortune"></div>
+ </form>
+
   </body>
 </html>
